@@ -1,8 +1,5 @@
 //
 //  AVStoreKit.swift
-//  BangLive
-//
-//  Created by Apple on 2023/4/20.
 //
 
 import UIKit
