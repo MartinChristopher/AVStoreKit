@@ -1,5 +1,5 @@
 PODS:
-  - AVStoreKit (0.0.1)
+  - AVStoreKit (0.0.2)
 
 DEPENDENCIES:
   - AVStoreKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AVStoreKit: 810e42b68849c381bdbe5876225735c8fc12e909
+  AVStoreKit: 7f32c802d49d0f08eed4eb0591ee5afb704b9600
 
 PODFILE CHECKSUM: 4acd50bf403d052df68cbfdc36dea3e771941020
 
