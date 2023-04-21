@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AVStoreKit_Example' do
+  pod 'AVStoreKit', :path => '../'
+
+  target 'AVStoreKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
