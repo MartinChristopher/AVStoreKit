@@ -1,0 +1,6 @@
+framework module AVStoreKit {
+  umbrella header "AVStoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

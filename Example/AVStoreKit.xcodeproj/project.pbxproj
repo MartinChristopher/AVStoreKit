@@ -40,12 +40,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		98DCE5B214F1D4D4C3DF65EC /* Pods-AVStoreKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVStoreKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-AVStoreKit_Tests/Pods-AVStoreKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		99F87A440CFA7259149217FD /* AVStoreKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AVStoreKit.podspec; path = ../AVStoreKit.podspec; sourceTree = "<group>"; };
-		A3DDC9CAC3CE99F65DC064F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		99F87A440CFA7259149217FD /* AVStoreKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AVStoreKit.podspec; path = ../AVStoreKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3DDC9CAC3CE99F65DC064F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AEE8465A5397D3EC88E73933 /* Pods-AVStoreKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVStoreKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-AVStoreKit_Example/Pods-AVStoreKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C1C30413185D03B3BBA9ECFE /* Pods-AVStoreKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVStoreKit_Example.release.xcconfig"; path = "Target Support Files/Pods-AVStoreKit_Example/Pods-AVStoreKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC5A20C8D038F0790D447643 /* Pods-AVStoreKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVStoreKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AVStoreKit_Tests/Pods-AVStoreKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D15EA37D49B9CF8160703EDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D15EA37D49B9CF8160703EDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FE83057E02E6E961914B09CE /* Pods_AVStoreKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVStoreKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				CC5A20C8D038F0790D447643 /* Pods-AVStoreKit_Tests.debug.xcconfig */,
 				98DCE5B214F1D4D4C3DF65EC /* Pods-AVStoreKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				E364497C816FA9F0816A5241 /* [CP] Embed Pods Frameworks */,
+				B1F733BC7333AF49CB7E2646 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -306,7 +306,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E364497C816FA9F0816A5241 /* [CP] Embed Pods Frameworks */ = {
+		B1F733BC7333AF49CB7E2646 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

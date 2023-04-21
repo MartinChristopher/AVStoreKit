@@ -1,0 +1,16 @@
+PODS:
+  - AVStoreKit (0.0.1)
+
+DEPENDENCIES:
+  - AVStoreKit (from `../`)
+
+EXTERNAL SOURCES:
+  AVStoreKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AVStoreKit: 810e42b68849c381bdbe5876225735c8fc12e909
+
+PODFILE CHECKSUM: 4acd50bf403d052df68cbfdc36dea3e771941020
+
+COCOAPODS: 1.11.3
