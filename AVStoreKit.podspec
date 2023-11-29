@@ -19,9 +19,9 @@ TODO: Add long description of the pod here.
   s.author           = { 'MartinChristopher' => '519483040@qq.com' }
   s.source           = { :git => 'https://github.com/MartinChristopher/AVStoreKit.git', :tag => s.version.to_s }
 
+  s.requires_arc = true
+  s.swift_version = '5.0'
   s.ios.deployment_target = '11.0'
-  s.platform              = :ios, "11.0"
-  s.swift_version         = '5.0'
 
   s.source_files = 'AVStoreKit/**/*.{swift}'
   
