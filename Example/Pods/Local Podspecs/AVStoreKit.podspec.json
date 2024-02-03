@@ -1,6 +1,6 @@
 {
   "name": "AVStoreKit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "A short description of AVStoreKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MartinChristopher/AVStoreKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MartinChristopher/AVStoreKit.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "requires_arc": true,
   "swift_versions": "5.0",
